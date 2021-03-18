@@ -13,14 +13,14 @@ class Main extends Component {
           <h1>SCLL COVID Tracker</h1>
           <ul className="header">
             <li>< NavLink to="/">Home</NavLink></li>
-            <li>< NavLink to="/Track">Track</NavLink></li>
+            <li>< NavLink to="/track">Track</NavLink></li>
             <li>< NavLink to="/safety">Safety</NavLink></li>
             <li>< NavLink to="/contact">Contact</NavLink></li>
 
           </ul>
           <div className="content">
             <Route exact path="/" component={Home}/>
-            <Route path="Track" component={Track}></Route>
+            <Route path="/track" component={Track}></Route>
             <Route path="/safety" component={Safety}/>
             <Route path="/contact" component={Contact}/>
           </div>
